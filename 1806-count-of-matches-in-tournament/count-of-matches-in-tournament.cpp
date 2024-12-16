@@ -1,8 +1,8 @@
 class Solution {
 public:
     int numberOfMatches(int n) {
-        int totalMatches=0;
-        int teams=n;
+        // int totalMatches=0;
+        // int teams=n;
 
         // while(teams!=1){
         //     int matches=0;
