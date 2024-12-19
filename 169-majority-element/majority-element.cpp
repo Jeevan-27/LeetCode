@@ -7,13 +7,12 @@ public:
             mp[nums[i]]++;
         }
 
-        int max;
         for(auto j:mp){
             if(j.second>(nums.size()/2)){
-                max=j.first;
+                return j.first;
             }
         }
 
-        return max;
+        return -1;
     }
 };
