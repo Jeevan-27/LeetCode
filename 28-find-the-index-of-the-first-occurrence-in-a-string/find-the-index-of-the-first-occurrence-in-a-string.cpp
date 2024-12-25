@@ -7,11 +7,11 @@ public:
             return -1;
         }
 
-        if(k==haystack.length()){
-            if(needle==haystack){
-                return 0;
-            }
-        }
+        // if(k==haystack.length()){
+        //     if(needle==haystack){
+        //         return 0;
+        //     }
+        // }
 
         string str;
         for(int i=0;i<=haystack.length()-k;i++){
